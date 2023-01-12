@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import Particle from "../Particle";
+import myImg from "../../Assets/my_avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -12,6 +13,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
+      <Particle />
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -19,29 +21,23 @@ function Home2() {
               Who am I?
             </h1>
             <p className="home-about-body">
-              I am a experienced software engineer with strong in design and integration with intuitive problem solving skills 
+              A Senior Pythoner with strong experience in developing full stack applications from the scratch by applying the best software methodologies. 
               <br />
-              <br />I am an expert in classics like
+              <br />My areas of expertise in 
               <i>
-                <b className="purple"> Python, JavaScript, C, C++, Go </b>
+                <b className="purple"> Python, Django, Django Rest Framework & Javascript. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building &nbsp;
-              <i>
-                <b className="purple">Learning new technologies and building new products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  System Design and performance
-                </b>
-              </i>
+              A consistent learner towards new technologies and build things for the web.  &nbsp;
+
               <br />
               <br />
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar" style={{ maxWidth:"85%" }} />
             </Tilt>
           </Col>
         </Row>
@@ -54,7 +50,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Bhavikdarji98"
+                  href="https://github.com/raviarrow88"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -64,17 +60,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Bhavikdrj"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://in.linkedin.com/in/bhavik-darji-888b69166"
+                  href="https://www.linkedin.com/in/ravi-teja39/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -84,7 +70,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/thebhavikdarji"
+                  href="https://www.instagram.com/rt4ravi/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

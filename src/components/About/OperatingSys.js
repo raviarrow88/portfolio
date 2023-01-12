@@ -1,27 +1,21 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiLinux,
-  SiVisualstudiocode,
-  SiPycharm,
-  SiAtom
-
+    SiWindows,
+    SiUbuntu
 } from "react-icons/si";
 
-function Toolstack() {
+function OsStack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiWindows />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPycharm />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAtom />
+        <SiUbuntu />
       </Col>
     </Row>
   );
 }
 
-export default Toolstack;
+export default OsStack;

@@ -8,10 +8,10 @@ import {
   DiPython,
   DiDjango,
   DiGit,
+  DiMongodb,
+  
 } from "react-icons/di";
-import {
-  SiFastapi
-} from "react-icons/si";
+
 import {FaAws} from 'react-icons/fa'
 function Techstack() {
   return (
@@ -23,27 +23,24 @@ function Techstack() {
         <DiDjango/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFastapi />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaAws/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPostgresql />
+        <DiMongodb/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
-      
+      <Col xs={4} md={2} className="tech-icons">
+        <FaAws/>
+      </Col>
+
     </Row>
   );
 }

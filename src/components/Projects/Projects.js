@@ -2,12 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import tarrakkiLogo from "../../Assets/Projects/TarrakkiAPIs.png";
-import sbnri from "../../Assets/Projects/SBNRI.png";
-import elevo from "../../Assets/Projects/Elevo.png";
-import tarrakki from "../../Assets/Projects/Tarrakki.png";
-import onedrop from "../../Assets/Projects/onedrop.png";
-import inrelay from "../../Assets/Projects/inrelay.png";
+import project_img from "../../Assets/Projects/project_img.webp";
 
 function Projects() {
   return (
@@ -15,69 +10,78 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Projects </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={tarrakkiLogo}
+              imgPath={project_img}
               isDemoOnly={true}
-              title="SaaS APIs"
-              description="Developed mutual funds investment APIs to offer plug in solutions to other fin-tech companies so that they can build their back end services using it."
-              demoLink="https://docs.tarrakki.com"
+              title="Azure Phynet"
+              description="SONiC is an open source network operating system based on Linux that runs on switches from
+              multiple vendors such as Cisco,Juniper etc.Primary responsibility is to develop and test the various api's/functionalities of operating
+              system using python and Pytest."
+              demoLink="https://github.com/sonic-net/SONiC"
+              tags = "Python,Sonic & Pytest"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={sbnri}
+              imgPath={project_img}
               isDemoOnly={true}
-              title="White Lable Solutions"
-              description="Provided a white labled solutions for other fin-techs in the market to ready to go live within minutes on their plateforms and offer mutual funds or other wealth products to their users."
-              demoLink="https://sbnri.com"
+              title="Tekkr Organics"
+              description="Tekkr Organics is a fresh organic fruits and vegetable ecommerce delivery app. Developed backend apis for the
+              Login,Booking order,Add to cart functionalities and payment gateway functionalities."
+              demoLink="http://www.farm29.com/"
+              tags="Python,Django,Django Rest Framework(DRF) & REST "
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={elevo}
+              imgPath={project_img}
               isDemoOnly={true}
-              title="Elevo"
-              description="Created a brand new product for the Tarrakki to on-board almost all the kind of investors individuals, minors, companies, NRIs to offer different wealth products."
-              demoLink="https://elevo.money/"
+              title="Ration Yojana"
+              description="The main intent of the application is to distribute ration to users. Developed backend API’s for user dashboard
+              and delivery executives for mobile application."
+              demoLink="http://www.sendfast.in/"
+              tags = "Python,Django,REST & Html/CSS/Javascript"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={tarrakki}
+              imgPath={project_img}
               isDemoOnly={true}
-              title="Tarrakki"
-              description="Worked on backend side of the tarrakki app that offers direct invements to users and improved app performance up to 30%"
-              demoLink="https://tarrakki.com/"
+              title="Sendfast Application"
+              description="Developed dashboard system for operation executives to track
+              the onfield delivery order details and generate reports according to store/rider."
+              demoLink="http://www.sendfast.in/"
+              tags = "Python,Django,Html/CSS/Javascript & JQuery"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={inrelay}
+              imgPath={project_img}
               isDemoOnly={true}
-              title="Inrelay"
-              description="Led project from requiement understading to client delivery. Designed and created APIs and worked with various social media APIs directly for integration i.e twitter, facebook, linkedin"
-              demoLink="https://inrelay.com/"
+              title="UNI(CMS)"
+              description="Developed operations dashboard and cash executive API’s for the Cash Management System(CMS) to manage and
+              monitor the cash between supervisor and banks."
+              demoLink="http://www.sendfast.in/"
+              tags = "Python,Django,Html/CSS/Javascript & JQuery"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={onedrop}
+              imgPath={project_img}
               isDemoOnly={true}
-              title="OneDrop Media"
-              description="Developed backend support i.e APIs for south africa based music band for its music application devloped in IOS. Designed database structure and handled its complexity."
-              demoLink="https://onedropmedia.com/"
+              title="Lucy (Research Assistant)"
+              description="is an AI based search engine which scrapes/collects data from different sources and provides the results."
+              demoLink="https://invana.io/"
+              tags = "Python,Django,Django Rest Framework(DRF),BeautifulSoup,Html/CSS/Javascript & JQuery"
             />
           </Col>
         </Row>

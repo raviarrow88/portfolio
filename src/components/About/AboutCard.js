@@ -4,36 +4,19 @@ import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
-      <Card.Body>
+    <Card className="quote-card-view" >
+      <Card.Body style ={{display:"flex",justifyContent:"center"}}>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Bhavik Darji </span>
-            from <span className="purple"> Patan, Gujarat-India.</span>
-            <br />I am a Software engineer currently working in a FinTech Startup
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            Myself, <span className="purple">Ravi Teja </span>
+            belongs to southern part of India, <span className="purple"> Hyderabad, Telagana. </span>
+            Currently working as a <span className="purple">Module Lead </span> at LTIMindtree. Possess 6+ years
+            of experience in developing web applications by following agile methodologies.
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Meditation
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Reading Books
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Painting
-            </li>
-          </ul>
+          <p style={{ textAlign: "justify" }}>
+            Developed applications from scratch such as building API's for the Mobile & UI components.
+          </p>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Bhavik</footer>
         </blockquote>
       </Card.Body>
     </Card>

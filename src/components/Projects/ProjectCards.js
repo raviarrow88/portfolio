@@ -12,7 +12,9 @@ function ProjectCards(props) {
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
-        </Card.Text>
+          <br></br>
+          <p style={{ textAlign: "left" }}>Skills : {props.tags}</p>
+        </Card.Text> 
         {props.ghLink && (
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
@@ -20,9 +22,6 @@ function ProjectCards(props) {
         )}
         {"\n"}
         {"\n"}
-
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
         {props.isDemoOnly && props.demoLink && (
           <Button
             variant="primary"

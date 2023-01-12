@@ -3,15 +3,19 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/about_avatar.png";
 import Toolstack from "./Toolstack";
+import OsStack  from "./OperatingSys";
 
 function About() {
   return (
     <Container fluid className="about-section">
       <Particle />
       <Container>
+      <img src={laptopImg} alt="about" className="img-fluid" style={{ position:"relative",zindex:"2" }} />
+
         <Row style={{ justifyContent: "center", padding: "10px" }}>
+          
           <Col
             md={7}
             style={{
@@ -21,29 +25,26 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Want to know who <strong className="purple">I'M ?</strong>
+              More about <strong className="purple">Me !</strong>
             </h1>
             <Aboutcard />
           </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={laptopImg} alt="about" className="img-fluid" />
-          </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+        Techincal <strong className="purple">Stack</strong> 
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Development</strong> Tools
         </h1>
         <Toolstack />
 
+        <h1 className="project-heading" >
+          Operating<strong className="purple"> Systems</strong>  
+        </h1>
+        <OsStack/>
       </Container>
     </Container>
   );
