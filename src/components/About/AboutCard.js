@@ -17,6 +17,18 @@ function AboutCard() {
             Developed applications from scratch such as building API's for the Mobile & UI components.
           </p>
 
+          <ul>
+            <li style={{ textAlign: "justify" }}> A python developer with 6+ years of IT Experience in requirement gathering,development and troubleshooting the web applications using Python frameworks such as <span className="purple">Django(MVC) ,Flask & Django Rest Framework (DRF).</span>
+Experience in starting the applications from scratch both frontend and backend.</li>
+
+<li style={{ textAlign: "justify" }}>Worked on the python modules such as requests, <span class="purple">multithreading, multiprocessing & Pandas.</span></li>
+<li style={{ textAlign: "justify" }}>Experience in front-end and back-end development technologies and deployment of web based applications using <span class="purple">AWS (EC2 & S3).</span></li>
+<li style={{ textAlign: "justify" }}>Hands-on experience on React,Redis & Celery.</li>
+<li style={{ textAlign: "justify" }}>Troubleshoot and debugged production level code.</li>
+<li style={{ textAlign: "justify" }}>Followed <span class="purple">AGILE & SCRUM </span>process.</li>
+
+          </ul>
+
         </blockquote>
       </Card.Body>
     </Card>

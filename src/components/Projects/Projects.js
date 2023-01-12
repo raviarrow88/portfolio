@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import project_img from "../../Assets/Projects/project_img.webp";
+import project_img from "../../Assets/Projects/project_img2.webp";
 
 function Projects() {
   return (
