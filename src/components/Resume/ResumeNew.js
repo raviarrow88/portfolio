@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/raviarrow88/portfolio/master/src/Assets/Ravi_Teja.pdf";
+  "https://raw.githubusercontent.com/raviarrow88/portfolio/master/src/Assets/Ravi_Teja_P_2023.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
